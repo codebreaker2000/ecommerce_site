@@ -6,7 +6,7 @@ ALLOWED_HOSTS = ['ecommercesite-production.up.railway.app']
 CSRF_TRUSTED_ORIGINS = [
     'https://ecommercesite-production.up.railway.app'
 ]
-
+DEBUG=False
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
